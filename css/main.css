@@ -1,0 +1,98 @@
+/*===============Propiedades Globales================*/
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap");
+
+body {
+    margin: 0;
+    background: grey;
+  }
+  
+  :root {
+    --main-color: white;
+  }
+  
+  .bg {
+    text-align: center;
+    padding: 10px;
+    height: 60vh;
+    background-size: cover;
+    box-sizing: border-box;
+    
+  }
+
+  .home {
+    background-image: url(../img/slide1.jpg);
+    position: relative;
+    z-index: -1;
+
+  }
+
+  
+  .Avatar{
+    padding: 10px;
+    position: relative;
+    top: 20px; 
+    left: 5%;
+    width: 200px;
+
+  }
+
+  .acerca{
+    position: absolute;
+    top: 40vh;
+    left: 10%;
+
+  }
+
+  .acercade{
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    left: 10%;
+    top: 20px;
+    z-index: 1
+    
+  }
+  
+  .titulo{
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    padding: 30px;
+
+  }
+  
+   
+  .titulo-trabajos{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    padding: 30px;
+    color: white;
+
+  }
+
+  .custom-section {
+    padding-top: 50px;
+  }
+  
+  .cb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .card-text {
+    font-family: 'Montserrat', sans-serif;;
+  }
+  
+  footer {
+    background: black;
+    padding: 20px 0;
+    color: var(--main-color);
+    margin-top: 40px;
+  }
+  
+  
